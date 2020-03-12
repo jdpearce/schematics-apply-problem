@@ -1,0 +1,6 @@
+{
+  "$schema": "http://json-schema.org/schema",
+  "id": "apply-problem",
+  "title": "Illustrate Apply Testing Problem",
+  "description": "This is a test schematic."
+}

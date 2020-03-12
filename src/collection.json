@@ -1,0 +1,9 @@
+{
+  "$schema": "../node_modules/@angular-devkit/schematics/collection-schema.json",
+  "schematics": {
+    "apply-problem": {
+      "description": "A blank schematic.",
+      "factory": "./apply-problem/index#applyProblem"
+    }
+  }
+}
