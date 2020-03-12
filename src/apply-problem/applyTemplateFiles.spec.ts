@@ -3,7 +3,7 @@ import { UnitTestTree } from '@angular-devkit/schematics/testing';
 import { callRule } from '../utils/testing';
 import { applyTemplateFiles } from './applyTemplateFiles';
 
-describe('checkProjectExists Rule', () => {
+describe('applyTemplateFiles Rule', () => {
   let tree: UnitTestTree;
 
   beforeEach(async () => {

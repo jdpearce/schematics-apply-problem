@@ -10,7 +10,7 @@ When you run the tests, the index test will pass but the `applyTemplateFiles.spe
 
 ```bash
 Failures:
-1) checkProjectExists Rule should apply the files to the tree
+1) applyTemplateFiles Rule should apply the files to the tree
   Message:
     TypeError: Cannot read property 'path' of undefined
   Stack:
