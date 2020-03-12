@@ -15,6 +15,6 @@ describe('applyTemplateFiles Rule', () => {
 
     tree = (await callRule(applyTemplateFiles(schema), tree)) as UnitTestTree;
 
-    expect(tree.files).toEqual(jasmine.arrayContaining(['libs/destination/test.txt']));
+    expect(tree.files).toEqual(jasmine.arrayContaining(['/libs/destination/test.txt']));
   });
 });
